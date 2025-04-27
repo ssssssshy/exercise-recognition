@@ -26,25 +26,9 @@
   - Работа с сигналами: SciPy
 - **Инструменты**: Jupyter Notebook, Git, DVC (опционально)
 
-## 📂 Структура проекта
-exercise-recognition/
-├── data/
-│ ├── raw/ # Исходные данные с датчиков
-│ ├── processed/ # Обработанные данные
-├── notebooks/
-│ ├── 1.0-eda.ipynb # Анализ данных
-│ ├── 2.0-feature-engineering.ipynb
-│ └── 3.0-model-training.ipynb
-├── src/
-│ ├── data/ # Скрипты обработки данных
-│ ├── features/ # Генерация признаков
-│ ├── models/ # Обучение моделей
-│ └── visualization/ # Визуализация
-├── models/ # Сохранённые модели
-├── reports/ # Отчёты и графики
-├── requirements.txt # Зависимости
-└── README.md # Этот файл
+## 📚 Дополнительные материалы
 
+Все справочные материалы, документация и исследовательские работы находятся в папке [references](/references/). Там вы найдете:
 
 ## 🚀 Быстрый старт
 
@@ -54,12 +38,7 @@ exercise-recognition/
    cd exercise-recognition
 Установите зависимости:
 
-
 pip install -r requirements.txt
-Запустите Jupyter Notebook:
-
-jupyter notebook
-Откройте notebooks/1.0-eda.ipynb для начала работы.
 
 📊 Результаты
 Модель классификации упражнений
